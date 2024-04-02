@@ -1,0 +1,28 @@
+{
+  "label": "Google Cloud Cortex Framework for META",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "https://marketplace-api.looker.com/block-icons/cortex_icon.png",
+    "tagline": "Common dashboarding templates for data replicated from META into BigQuery leveraging Google Cloud Cortex Framework content."
+  },
+
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    },
+    "GCP_PROJECT_ID": {
+      "label": "GCP Project Name"
+    },
+    "REPORTING_DATASET": {
+      "label": "Reporting Dataset Name"
+    }
+  },
+      "models": [
+        {
+            "name": "cortex-meta",
+            "connection_constant": "CONNECTION_NAME"
+        }
+    ]
+  
+}
